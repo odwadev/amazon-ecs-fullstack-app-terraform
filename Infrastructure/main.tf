@@ -106,7 +106,7 @@ module "security_group_alb_client" {
   ingress_port        = 80
 }
 
-# ------- Creating Server Application ALB -------
+# ------- Creating Server Application Load Balancer-------
 module "alb_server" {
   source         = "./Modules/ALB"
   create_alb     = true
